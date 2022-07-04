@@ -1,8 +1,13 @@
-const arr1 = ["dog", "cat"];
-console.log(arr1);
+const name = "主田";
 
-arr1[0] = "bird";
-console.log(arr1);
+const age = 24;
 
-arr1.push("monkey");
-console.log(arr1);
+//ES2015前
+// const message = "私の名前は、" + name + "です。年齢は、" + age + "です。";
+
+// console.log(message);
+
+//ES2015以降
+const message = `私の名前は、${name}です。年齢は、${age}です。`;
+
+console.log(message);
