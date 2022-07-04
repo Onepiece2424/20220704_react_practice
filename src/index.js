@@ -1,9 +1,5 @@
-function sayHello() {
-  return "こんにちは！";
+function func1(value) {
+  return value;
 }
 
-const month = 1;
-
-const message = `皆さん${sayHello()}。今日から${month * 3}月です!`;
-
-console.log(message);
+console.log(func1("func1です。"));
