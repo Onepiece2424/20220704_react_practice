@@ -1,13 +1,9 @@
-const name = "主田";
+function sayHello() {
+  return "こんにちは！";
+}
 
-const age = 24;
+const month = 1;
 
-//ES2015前
-// const message = "私の名前は、" + name + "です。年齢は、" + age + "です。";
-
-// console.log(message);
-
-//ES2015以降
-const message = `私の名前は、${name}です。年齢は、${age}です。`;
+const message = `皆さん${sayHello()}。今日から${month * 3}月です!`;
 
 console.log(message);
