@@ -32,8 +32,18 @@
 // console.log(func4(1, 2));
 
 //かっこで囲んで１行としてまとめる
-const func5 = (val1, val2) => ({
-  name: val1,
-  age: val2
-});
-console.log(func5("主田", 24));
+// const func5 = (val1, val2) => ({
+//   name: val1,
+//   age: val2
+// });
+// console.log(func5("主田", 24));
+
+//分割代入を使用しない文字列を出力
+const myProfile = {
+  name: "田中",
+  age: 24
+};
+
+const message = `私の名前は、${myProfile.name}です。年齢は、${myProfile.age}です。`;
+
+console.log(message);
