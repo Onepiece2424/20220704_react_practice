@@ -20,8 +20,13 @@
 // console.log(func2("func2です。"));
 
 //引数が２つ以上の時のアロー関数
-const func3 = (value1, value2) => {
-  return value1 + value2;
-};
+// const func3 = (value1, value2) => {
+//   return value1 + value2;
+// };
 
-console.log(func3(1, 2));
+// console.log(func3(1, 2));
+
+//returnの省略時のアロー関数
+const func4 = (num1, num2) => num1 + num2;
+
+console.log(func4(1, 2));
