@@ -33,13 +33,25 @@
 // console.log(message);
 
 //順番を変えた時の分割代入
+// const myProfile = {
+//   name: "田中",
+//   age: 24
+// };
+
+// const { age, name } = myProfile;
+
+// const message = `わたその名前は、${name}です。年齢は、${age}歳です。`;
+
+// console.log(message);
+
+//抽出したプロパティに別名をつける
 const myProfile = {
   name: "田中",
   age: 24
 };
 
-const { age, name } = myProfile;
+const { name: newName, age: newAge } = myProfile;
 
-const message = `わたその名前は、${name}です。年齢は、${age}歳です。`;
+const message = `私の名前は${newName}です。年齢は${newAge}歳です。`;
 
 console.log(message);
