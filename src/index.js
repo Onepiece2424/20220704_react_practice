@@ -27,6 +27,13 @@
 // console.log(func3(1, 2));
 
 //returnの省略時のアロー関数
-const func4 = (num1, num2) => num1 + num2;
+// const func4 = (num1, num2) => num1 + num2;
 
-console.log(func4(1, 2));
+// console.log(func4(1, 2));
+
+//かっこで囲んで１行としてまとめる
+const func5 = (val1, val2) => ({
+  name: val1,
+  age: val2
+});
+console.log(func5("主田", 24));
