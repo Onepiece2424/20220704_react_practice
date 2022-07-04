@@ -1,2 +1,6 @@
-const val3 = "const変数";
-console.log(val3);
+const obj1 = {
+  name: "主田",
+  age: 24
+};
+
+console.log(obj1);
