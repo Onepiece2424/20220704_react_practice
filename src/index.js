@@ -52,12 +52,19 @@
 
 // console.log(user);
 
-///プロパティ名と変数名が同一の場合2
-const name = "田中";
-const age = 24;
+// ///プロパティ名と変数名が同一の場合2
+// const name = "田中";
+// const age = 24;
 
-const user = {
-  name,
-  age
-};
-console.log(user);
+// const user = {
+//   name,
+//   age
+// };
+// console.log(user);
+
+//従来のfor文
+const nameArr = ["田中", "佐藤", "木村"];
+
+for (let index = 0; index < nameArr.length; index++) {
+  console.log(nameArr[index]);
+}
