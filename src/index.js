@@ -13,12 +13,22 @@
 // console.log(...arr3);
 
 //スプレッド構文の要素のコピーと結合
-const arr4 = [10, 20];
-const arr5 = [30, 40];
-const arr6 = [...arr4];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
+// const arr6 = [...arr4];
 
-console.log(arr4);
-console.log(arr6);
+// console.log(arr4);
+// console.log(arr6);
 
-const arr7 = [...arr4, ...arr5];
-console.log(arr7);
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
+
+//複数のオブジェクトの結合
+const obj4 = { val1: 10, val2: 20 };
+const obj5 = { val3: 30, val4: 40 };
+
+const obj6 = { ...obj4 };
+const obj7 = { ...obj4, ...obj5 };
+
+console.log(obj6);
+console.log(obj7);
