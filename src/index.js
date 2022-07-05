@@ -65,6 +65,7 @@
 //従来のfor文
 const nameArr = ["田中", "佐藤", "木村"];
 
+//for文は、初期値、限界値、加算値で設定する
 for (let index = 0; index < nameArr.length; index++) {
   console.log(nameArr[index]);
 }
