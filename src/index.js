@@ -3,6 +3,16 @@
 // sayHello("主田");
 
 //引数が渡されなかった時
-const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん。`);
-sayHello();
-sayHello("田中");
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん。`);
+// sayHello();
+// sayHello("田中");
+
+//存在しないプロパティの出力
+const myProfile = {
+  age: 24
+};
+
+const { name } = myProfile;
+
+const message = `こんにちは！${name}さん。`;
+console.log(message);
