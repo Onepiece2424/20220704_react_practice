@@ -34,20 +34,30 @@
 // console.log(obj7);
 
 //スプレッド構文を用いたコピー
-const arr4 = [10, 20];
-const arr8 = [...arr4];
-arr8[0] = 100;
-console.log(arr4);
-console.log(arr8);
+// const arr4 = [10, 20];
+// const arr8 = [...arr4];
+// arr8[0] = 100;
+// console.log(arr4);
+// console.log(arr8);
 
 ///プロパティ名と変数名が同一の場合
 
+// const name = "田中";
+// const age = 24;
+
+// const user = {
+//   name: name,
+//   age: age
+// };
+
+// console.log(user);
+
+///プロパティ名と変数名が同一の場合2
 const name = "田中";
 const age = 24;
 
 const user = {
-  name: name,
-  age: age
+  name,
+  age
 };
-
 console.log(user);
