@@ -80,5 +80,14 @@
 // console.log(nameArr2);
 
 //map関数の使用
-const nameArr = ["田中", "佐藤", "木村"];
-nameArr.map((name) => console.log(name));
+// const nameArr = ["田中", "佐藤", "木村"];
+// nameArr.map((name) => console.log(name));
+
+//filter関数の使用
+//filter関数は、条件に一致する値のみ配列の中から取り出す。
+
+const numArr = [1, 2, 3, 4, 5];
+const newNumArr = numArr.filter((num) => {
+  return num % 2 === 1;
+});
+console.log(newNumArr);
