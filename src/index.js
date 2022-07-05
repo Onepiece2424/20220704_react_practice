@@ -24,11 +24,18 @@
 // console.log(arr7);
 
 //複数のオブジェクトの結合
-const obj4 = { val1: 10, val2: 20 };
-const obj5 = { val3: 30, val4: 40 };
+// const obj4 = { val1: 10, val2: 20 };
+// const obj5 = { val3: 30, val4: 40 };
 
-const obj6 = { ...obj4 };
-const obj7 = { ...obj4, ...obj5 };
+// const obj6 = { ...obj4 };
+// const obj7 = { ...obj4, ...obj5 };
 
-console.log(obj6);
-console.log(obj7);
+// console.log(obj6);
+// console.log(obj7);
+
+//スプレッド構文を用いたコピー
+const arr4 = [10, 20];
+const arr8 = [...arr4];
+arr8[0] = 100;
+console.log(arr4);
+console.log(arr8);
