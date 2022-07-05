@@ -63,9 +63,22 @@
 // console.log(user);
 
 //従来のfor文
-const nameArr = ["田中", "佐藤", "木村"];
+// const nameArr = ["田中", "佐藤", "木村"];
 
-//for文は、初期値、限界値、加算値で設定する
-for (let index = 0; index < nameArr.length; index++) {
-  console.log(nameArr[index]);
-}
+// //for文は、初期値、限界値、加算値で設定する
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]);
+// }
+
+//配列.map()
+//配列を定義
+// const nameArr = ["田中", "佐藤", "木村"];
+// //引数（name）に配列の値が設定される
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// });
+// console.log(nameArr2);
+
+//map関数の使用
+const nameArr = ["田中", "佐藤", "木村"];
+nameArr.map((name) => console.log(name));
