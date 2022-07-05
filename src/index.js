@@ -39,3 +39,15 @@ const arr8 = [...arr4];
 arr8[0] = 100;
 console.log(arr4);
 console.log(arr8);
+
+///プロパティ名と変数名が同一の場合
+
+const name = "田中";
+const age = 24;
+
+const user = {
+  name: name,
+  age: age
+};
+
+console.log(user);
