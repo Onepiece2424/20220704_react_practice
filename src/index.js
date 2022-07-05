@@ -8,11 +8,19 @@
 // sayHello("田中");
 
 //存在しないプロパティの出力
+// const myProfile = {
+//   age: 24
+// };
+
+// const { name } = myProfile;
+
+// const message = `こんにちは！${name}さん。`;
+// console.log(message);
+
+//分割代入時にデフォルト値の設定
 const myProfile = {
   age: 24
 };
-
-const { name } = myProfile;
-
-const message = `こんにちは！${name}さん。`;
+const { name = "田中" } = myProfile;
+const message = `こんにちは！${name}さん！`;
 console.log(message);
