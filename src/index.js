@@ -58,6 +58,7 @@
 
 //配列の分割代入
 const myProfile = ["主田", 24];
+const [name, age] = myProfile;
 
-const message = `私の名前は、${myProfile[0]}です。年齢は、${myProfile[1]}です。`;
+const message = `私の名前は、${name}です。年齢は、${age}です。`;
 console.log(message);
