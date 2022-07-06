@@ -86,8 +86,14 @@
 //filter関数の使用
 //filter関数は、条件に一致する値のみ配列の中から取り出す。
 
-const numArr = [1, 2, 3, 4, 5];
-const newNumArr = numArr.filter((num) => {
-  return num % 2 === 1;
-});
-console.log(newNumArr);
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// });
+// console.log(newNumArr);
+
+//for文のindexで配列の要素順を取り出す
+const nameArr = ["田中", "佐藤", "木村"];
+for (let index = 0; index < nameArr.length; index++) {
+  console.log(`${index + 1}番目は、${nameArr[index]}です。`);
+}
