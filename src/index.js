@@ -93,7 +93,11 @@
 // console.log(newNumArr);
 
 //for文のindexで配列の要素順を取り出す
+// const nameArr = ["田中", "佐藤", "木村"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(`${index + 1}番目は、${nameArr[index]}です。`);
+// }
+
+//map関数の引数で配列の要素順を取り出す
 const nameArr = ["田中", "佐藤", "木村"];
-for (let index = 0; index < nameArr.length; index++) {
-  console.log(`${index + 1}番目は、${nameArr[index]}です。`);
-}
+nameArr.map((name, index) => console.log(`${index + 1}番目は、${name}です。`));
