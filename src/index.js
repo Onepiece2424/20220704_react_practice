@@ -130,8 +130,41 @@
 
 //関数のreturn部で三項演算子を用いる
 //2つの引数の合計値が100を超えているか判定する関数
-const checkSumOver100 = (num1, num2) => {
-  return num1 + num2 > 100 ? "100を超えています！" : "許容範囲内です。";
-};
-console.log(checkSumOver100(50, 40));
-console.log(checkSumOver100(50, 70));
+// const checkSumOver100 = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています！" : "許容範囲内です。";
+// };
+// console.log(checkSumOver100(50, 40));
+// console.log(checkSumOver100(50, 70));
+
+//論理演算子を用いた条件分岐
+// const flag1 = true;
+// const flag2 = false;
+
+// if (flag1 || flag2) {
+//   console.log("フラグのどちらかはtrueです。");
+// }
+
+// if (flag1 && flag2) {
+//   console.log("フラグの両方はtrueです。");
+// }
+
+//論理演算子「&&」「||」を使用してみる。
+//「||」は左側がfalse判定なら右側を返す。
+// const num = null;
+// const fee = num || "全額未設定です。";
+// console.log(fee);
+
+// const num = 100;
+// const fee = num || "全額未設定です。";
+// console.log(fee);
+
+// const flag1 = true;
+// const flag2 = false;
+// if (flag1 || flag2) {
+//   console.log("フラグのどちらかはtrueです。");
+// }
+
+//「&&」は左側がtrue判定なら右側を返す
+const num2 = 100;
+const fee2 = num2 && "何か設定されました。";
+console.log(fee2);
