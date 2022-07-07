@@ -99,5 +99,17 @@
 // }
 
 //map関数の引数で配列の要素順を取り出す
+// const nameArr = ["田中", "佐藤", "木村"];
+// nameArr.map((name, index) => console.log(`${index + 1}番目は、${name}です。`));
+
+//map関数を用いた実装例
 const nameArr = ["田中", "佐藤", "木村"];
-nameArr.map((name, index) => console.log(`${index + 1}番目は、${name}です。`));
+const newNameArr = nameArr.map((name) => {
+  if (name === "田中") {
+    return name;
+  } else {
+    return `${name}さん`;
+  }
+});
+
+console.log(newNameArr);
