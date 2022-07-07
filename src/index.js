@@ -103,13 +103,17 @@
 // nameArr.map((name, index) => console.log(`${index + 1}番目は、${name}です。`));
 
 //map関数を用いた実装例
-const nameArr = ["田中", "佐藤", "木村"];
-const newNameArr = nameArr.map((name) => {
-  if (name === "田中") {
-    return name;
-  } else {
-    return `${name}さん`;
-  }
-});
+// const nameArr = ["田中", "佐藤", "木村"];
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "田中") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
 
-console.log(newNameArr);
+// console.log(newNameArr);
+
+//?と:を使った処理の例
+const val1 = 1 > 0 ? "trueです。" : "falseです。";
+console.log(val1);
