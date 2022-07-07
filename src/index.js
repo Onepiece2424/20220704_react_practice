@@ -119,11 +119,19 @@
 // console.log(val1);
 
 //数値を変換して出力する関数
-const printFormattedNum = (num) => {
-  const formattedNum =
-    typeof num === "number" ? num.toLocaleString() : "数値を入力してください";
-  console.log(formattedNum);
-};
+// const printFormattedNum = (num) => {
+//   const formattedNum =
+//     typeof num === "number" ? num.toLocaleString() : "数値を入力してください";
+//   console.log(formattedNum);
+// };
 
-printFormattedNum(1300);
-printFormattedNum("1300");
+// printFormattedNum(1300);
+// printFormattedNum("1300");
+
+//関数のreturn部で三項演算子を用いる
+//2つの引数の合計値が100を超えているか判定する関数
+const checkSumOver100 = (num1, num2) => {
+  return num1 + num2 > 100 ? "100を超えています！" : "許容範囲内です。";
+};
+console.log(checkSumOver100(50, 40));
+console.log(checkSumOver100(50, 70));
